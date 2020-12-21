@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 //     return 'This is user ' .$name.' and id # '.$id;
 // });
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
