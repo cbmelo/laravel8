@@ -13,7 +13,7 @@
                     <button type="submit">Search</button>
                 </form>
 
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col">
                         @foreach ($posts as $post)
                         {{ $post->id}}
@@ -21,7 +21,7 @@
                         {{ $post->created_at}}
                         @endforeach
                     </div>
-                </div>
+                </div> --}}
                 <div class="card mt-3">
                     <div class="card-header">
 
