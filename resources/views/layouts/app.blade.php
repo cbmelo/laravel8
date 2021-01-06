@@ -22,10 +22,9 @@
 <body>
 
     @include('inc.navbar')
-    <div class="container-fluid">
+    <div class="container-fluid pt-5">
         <div class="row">
             <div class="col">
-
                 @yield('content')
             </div>
         </div>
